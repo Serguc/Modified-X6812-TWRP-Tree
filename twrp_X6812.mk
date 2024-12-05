@@ -19,9 +19,6 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, device/infinix/X6812/device.mk)
 
 # Forcefully add mtp support (adb is already there)
-#PRODUCT_BUILD_PROP_OVERRIDES += \
-#  PRIVATE_BUILD_DESC= Infinix-X6812:11/RP1A.200720.011/230921V645:user/release-keys \
-#  persist.sys.usb.config=mtp
 
 BUILD_FINGERPRINT := Infinix-X6812:11/RP1A.200720.011/230921V810:user/release-keys
 
